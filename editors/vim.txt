@@ -1,0 +1,15 @@
+----------------------------------------------------------------------------------------------------
+Reverse order of lines
+https://vim.fandom.com/wiki/Reverse_order_of_lines
+
+:g/^/m0
+
+1. : start command-line mode.
+2. g means you'll take an action on any lines where a regular expression matches
+3. / begins the regular expression (could have used any valid delimiter)
+4. ^ matches the start of a line (which matches all lines in the buffer)
+5. the second / ends the regular expression; the rest is an Ex command to execute on all matched lines (i.e. all lines in buffer)
+6. m means move (:help :move)
+7. 0 is the destination line (beginning of buffer)
+
+----------------------------------------------------------------------------------------------------
