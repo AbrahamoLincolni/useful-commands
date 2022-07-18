@@ -1,0 +1,15 @@
+Based on https://docs.sui.io/build/install
+
+1. Install rust - https://www.journaldev.com/39960/install-rust-on-ubuntu-linux
+2. Install the other linus libraries as per https://docs.sui.io/build/install
+3. Install the binary as per https://docs.sui.io/build/install:
+
+   cargo install --locked --git https://github.com/MystenLabs/sui.git --branch "devnet" sui sui-gateway
+   
+4. Check your sui address:
+
+   sui client active-address
+   
+5. Request tokens in the #devnet-faucet channel using the syntax: 
+
+   !faucet <YOUR_ADDRESS>, for example:
