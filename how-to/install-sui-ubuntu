@@ -12,4 +12,7 @@ Based on https://docs.sui.io/build/install
    
 5. Request tokens in the #devnet-faucet channel using the syntax: 
 
-   !faucet <YOUR_ADDRESS>, for example:
+   !faucet <YOUR_ADDRESS>
+   
+
+6. Install full node per https://docs.sui.io/build/fullnode
